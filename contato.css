@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Prompt&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #242424;
+    color: #ffffff;
+}
+
+h1 {
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+label {
+    font-family: 'Prompt', sans-serif;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.box {
+    border: solid 1px #ffc700;
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+form button {
+    margin-top: 40px;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 8px;
+    font-size: 15px;
+    background-color: transparent;
+    border-color: #ffc700;
+    color: #ffffff;
+    font-family: 'Kanit', sans-serif;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ffc700;
+    color: #242424;
+    border: none;
+    margin-bottom: 4px;
+}
+
+input {
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 5px;
+    border: none;
+    outline-color: #ffc700; 
+}
+
+.message {
+    padding-bottom: 100px;
+}
+
+::placeholder {
+    font-family: 'Prompt', sans-serif;
+}
+
+span {
+    font-family: 'Prompt', sans-serif;
+    padding-top: 10%;
+}
+
+.ou {
+    margin-top: 5%;
+    margin-left: 49%;
+}
+
+.social {
+    margin-top: 70px;
+    margin-left: 45.5%;
+    margin-bottom: 5%;
+}
+
+.social img {
+    width: 25px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+footer {
+    display: none;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    h1 {
+        margin-top: 60px;
+        margin-bottom: 9%;
+    }
+
+    form {
+        margin-top: 10px;
+        margin-left: -7%;
+        margin-right: -7%;
+    }
+
+    .box {
+        border: solid 1px #ffc700;
+        margin-top: 8%;
+        margin-left: 7%;
+        margin-right: 7%;
+        border-radius: 5px;
+    }
+
+    .ou {
+        margin-top: 15%;
+        margin-left: 49%;
+    }
+
+    .social {
+        margin-top: 60px;
+        margin-left: 39%;
+        margin-bottom: 7%;
+    }
+
+    footer {
+        display: block;
+        border-top: #ffffff solid 1px;
+        padding: 8%;
+        text-align: center;
+        font-family: 'Prompt', sans-serif;
+        margin-top: 10%;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    footer a:hover {
+        color: #ffc700;
+        text-decoration: underline;
+    }
+
+    footer span {
+        margin: 10px;
+    }
+
+}

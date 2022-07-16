@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Prompt&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #242424;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: 'Kanit', sans-serif;
+}
+
+.orgs {
+    margin-top: 50px;
+}
+
+p {
+    font-family: 'Prompt', sans-serif;
+}
+
+div {
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+img {
+    width: 25px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 7%;
+}
+
+footer {
+    display: none;
+}
+
+
+@media screen and (max-width: 1000px) {
+    
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .social {
+        margin-bottom: 20%;
+        margin-top: 6%;
+    }
+
+    footer {
+        display: block;
+        border-top: #ffffff solid 1px;
+        padding: 8%;
+        text-align: center;
+        font-family: 'Prompt', sans-serif;
+        margin-top: 20%;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    footer a:hover {
+        color: #ffc700;
+        text-decoration: underline;
+    }
+
+    footer span {
+        margin: 10px;
+    }
+
+}
